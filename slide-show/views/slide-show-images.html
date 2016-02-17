@@ -1,0 +1,5 @@
+<div class="album">
+    <div ng-repeat="pic in $ctrl.pics">
+        <slide-show-image pic="pic" class="full-image" ng-class="{ 'active' : $ctrl.isCurrent($index) }"></slide-show-image>
+    </div>
+</div>

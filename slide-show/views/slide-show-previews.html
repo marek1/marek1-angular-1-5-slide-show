@@ -1,0 +1,5 @@
+<div class="album">
+    <div ng-repeat="pic in $ctrl.pics" class="pull-left preview" ng-class="{'active' : $ctrl.isCurrent($index) }" style="width: {{$ctrl.percent}}%" ng-click="$ctrl.setCurrent($index)">
+        <slide-show-preview pic="pic" ></slide-show-preview>
+    </div>
+</div>
