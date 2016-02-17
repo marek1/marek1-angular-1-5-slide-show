@@ -7,7 +7,7 @@ angular
         var noOfPics = 17;
         var counter = 1;
         while (counter <= noOfPics) {
-            this.pics.push(nameOfPicFolder+'/Bild_'+counter+'_sm.JPG');
+            this.pics.push(nameOfPicFolder+'/Bild_'+counter+'_sm.jpg');
             counter++;
         }
     })

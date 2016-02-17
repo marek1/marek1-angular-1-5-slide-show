@@ -9,8 +9,9 @@ Components, also known as 'Web Components', are a main part (if not to say the m
 
 I created a simple app using Angular 1.5 components
 
-Github : https://github.com/marek1/angular-1-5-slide-show
-DEMO : http://marek-sonnabend.de/demos/angular-1-5-slide-show
+Github : https://github.com/marek1/marek1-angular-1-5-slide-show
+
+DEMO : http://marek-sonnabend.de/demos/marek1-angular-1-5-slide-show
 
 Using the ControllerAs syntax I create a controller (SlideShowCtrl) :
 
